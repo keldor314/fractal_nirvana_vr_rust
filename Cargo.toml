@@ -1,0 +1,6 @@
+[package]
+name = "fractal_nirvana_vr_rust"
+version = "0.1.0"
+authors = ["Steven Brodhead <keldor314@gmail.com>"]
+
+[dependencies]
