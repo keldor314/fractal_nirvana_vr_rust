@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\openvr_api_public.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\jsoncpp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\dirtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\envvartools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\pathtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\sharedlibtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\hmderrors_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\vrpathregistry_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\strtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4F87FAD0-0AB4-3D64-8362-B9DE35C959D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VRCommon">
+      <UniqueIdentifier>{D33E1302-C24F-3EBD-873D-A784A257DC42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

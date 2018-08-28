@@ -2,5 +2,6 @@
 
 members = [
     "fractal_nirvana_vr_rust",
-    "rust-openvr-master",
+    "rust-openvr",
+    "rust-openvr-sys"
 ]

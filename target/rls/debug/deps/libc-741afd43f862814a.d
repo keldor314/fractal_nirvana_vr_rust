@@ -1,0 +1,13 @@
+c:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\target\rls\debug\deps\libc-741afd43f862814a.rmeta: C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\lib.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\macros.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\dox.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\windows.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\net.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\cloudabi\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\fuchsia\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\unix\mod.rs
+
+c:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\target\rls\debug\deps\libc-741afd43f862814a.d: C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\lib.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\macros.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\dox.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\windows.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\net.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\cloudabi\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\fuchsia\mod.rs C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\unix\mod.rs
+
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\lib.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\macros.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\dox.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\windows.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\mod.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\redox\net.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\cloudabi\mod.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\fuchsia\mod.rs:
+C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\libc-0.2.43\src\unix\mod.rs:

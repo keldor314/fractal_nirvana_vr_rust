@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Steven Brodhead <keldor314@gmail.com>"]
 
 [dependencies]
+openvr = {path = "../rust-openvr"}
 vulkano = "0.10.0"
 vulkano-win = "0.10.0"
 cgmath = "0.16.1"

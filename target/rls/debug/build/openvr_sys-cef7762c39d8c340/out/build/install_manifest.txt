@@ -1,0 +1,1 @@
+C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/rls/debug/build/openvr_sys-cef7762c39d8c340/out/lib/openvr_api64.lib

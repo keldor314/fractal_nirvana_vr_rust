@@ -1,0 +1,1 @@
+c:\Users\Keldor\Documents\Visual\ Code\Projects\fractal_nirvana_vr_rust\target\rls\debug\libfractal_nirvana_vr_rust.rmeta: c:\Users\Keldor\Documents\Visual\ Code\Projects\fractal_nirvana_vr_rust\fractal_nirvana_vr_rust\src\main.rs

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\openvr_api_public.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\jsoncpp.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\dirtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\envvartools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\pathtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\sharedlibtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\hmderrors_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\vrpathregistry_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\vrcommon\strtools_public.cpp">
+      <Filter>VRCommon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Keldor\Documents\Visual Code\Projects\fractal_nirvana_vr_rust\rust-openvr-sys\openvr\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{CC980FDD-8D1F-366C-BB1A-0AB93EB85754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VRCommon">
+      <UniqueIdentifier>{9A895C96-BC87-3A59-A22D-2D7EC56D2162}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
