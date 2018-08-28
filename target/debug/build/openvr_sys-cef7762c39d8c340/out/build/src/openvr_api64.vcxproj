@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86767BAE-7432-3048-94AE-A0077C6C2166}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>openvr_api64</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openvr_api64.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">openvr_api64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openvr_api64.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">openvr_api64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openvr_api64.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">openvr_api64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openvr_api64.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">openvr_api64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;VR_API_PUBLIC;WIN64;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;VR_API_PUBLIC;WIN64;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr "-BC:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build" --check-stamp-file "C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr "-BC:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build" --check-stamp-file "C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr "-BC:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build" --check-stamp-file "C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr "-BC:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build" --check-stamp-file "C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\openvr_api_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\jsoncpp.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\dirtools_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\envvartools_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\pathtools_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\sharedlibtools_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\hmderrors_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\vrpathregistry_public.cpp"  />
+    <ClCompile Include="C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\strtools_public.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ZERO_CHECK.vcxproj">
+      <Project>{3B81DC43-E981-348D-82E1-E515DA32B7E9}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

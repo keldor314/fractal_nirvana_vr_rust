@@ -1,0 +1,136 @@
+running: "cmake" "C:\\Users\\Keldor\\.cargo\\registry\\src\\github.com-1ecc6299db9ec823\\openvr_sys-2.0.2\\openvr" "-G" "Visual Studio 15 2017 Win64" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\Keldor\\Documents\\Visual Code\\Projects\\FractalNirvanaVRRust\\target\\debug\\build\\openvr_sys-cef7762c39d8c340\\out" "-DCMAKE_C_FLAGS= /nologo /MD" "-DCMAKE_C_FLAGS_DEBUG= /nologo /MD" "-DCMAKE_CXX_FLAGS= /DWIN32 /nologo /MD" "-DCMAKE_CXX_FLAGS_DEBUG= /DWIN32 /nologo /MD" "-DCMAKE_BUILD_TYPE=Debug"
+-- The C compiler identification is MSVC 19.15.26726.0
+-- The CXX compiler identification is MSVC 19.15.26726.0
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x64/cl.exe
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x64/cl.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x64/cl.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.15.26726/bin/Hostx86/x64/cl.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build
+running: "cmake" "--build" "." "--target" "install" "--config" "Debug" "--"
+Microsoft (R) Build Engine version 15.8.166+gd4e8d81a88 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/27/2018 11:25:37 PM.
+Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\install.vcxproj" on node 1 (default targets).
+Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\install.vcxproj" (1) is building "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "x64\Debug\ZERO_CHECK\".
+  Creating directory "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Checking Build System
+  CMake does not need to re-run because C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+Done Building Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ZERO_CHECK.vcxproj" (default targets).
+Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\install.vcxproj" (1) is building "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ALL_BUILD.vcxproj" (3) is building "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj" (4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "openvr_api64.dir\Debug\".
+  Creating directory "openvr_api64.dir\Debug\openvr_api64.tlog\".
+InitializeBuildStatus:
+  Creating "openvr_api64.dir\Debug\openvr_api64.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/src/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/src/CMakeFiles/generate.stamp is up-to-date.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\CL.exe /c /I"C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src" /I"C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\headers" /I"C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon" /nologo /W1 /WX- /diagnostics:classic /O2 /D WIN32 /D VR_API_PUBLIC /D WIN64 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"openvr_api64.dir\Debug\\" /Fd"openvr_api64.dir\Debug\openvr_api64.pdb" /Gd /TP /FC /errorReport:queue "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\openvr_api_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\jsoncpp.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\dirtools_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\envvartools_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\pathtools_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\sharedlibtools_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\hmderrors_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\vrpathregistry_public.cpp" "C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\src\vrcommon\strtools_public.cpp"
+  openvr_api_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  jsoncpp.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  dirtools_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  envvartools_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  pathtools_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  sharedlibtools_public.cpp
+  hmderrors_public.cpp
+  vrpathregistry_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  strtools_public.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64\Lib.exe /OUT:"C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\Debug\openvr_api64.lib" /NOLOGO /MACHINE:X64  /machine:x64 openvr_api64.dir\Debug\openvr_api_public.obj
+  openvr_api64.dir\Debug\jsoncpp.obj
+  openvr_api64.dir\Debug\dirtools_public.obj
+  openvr_api64.dir\Debug\envvartools_public.obj
+  openvr_api64.dir\Debug\pathtools_public.obj
+  openvr_api64.dir\Debug\sharedlibtools_public.obj
+  openvr_api64.dir\Debug\hmderrors_public.obj
+  openvr_api64.dir\Debug\vrpathregistry_public.obj
+  openvr_api64.dir\Debug\strtools_public.obj
+  openvr_api64.vcxproj -> C:\Users\Keldor\.cargo\registry\src\github.com-1ecc6299db9ec823\openvr_sys-2.0.2\openvr\bin\win64\Debug\openvr_api64.lib
+FinalizeBuildStatus:
+  Deleting file "openvr_api64.dir\Debug\openvr_api64.tlog\unsuccessfulbuild".
+  Touching "openvr_api64.dir\Debug\openvr_api64.tlog\openvr_api64.lastbuildstate".
+Done Building Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Debug\ALL_BUILD\".
+  Creating directory "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Keldor/.cargo/registry/src/github.com-1ecc6299db9ec823/openvr_sys-2.0.2/openvr/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/build/CMakeFiles/generate.stamp is up-to-date.
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+Done Building Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ALL_BUILD.vcxproj" (default targets).
+PrepareForBuild:
+  Creating directory "x64\Debug\INSTALL\".
+  Creating directory "x64\Debug\INSTALL\INSTALL.tlog\".
+InitializeBuildStatus:
+  Creating "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+PostBuildEvent:
+  setlocal
+  "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Debug -P cmake_install.cmake
+  if %errorlevel% neq 0 goto :cmEnd
+  :cmEnd
+  endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+  :cmErrorLevel
+  exit /b %1
+  :cmDone
+  if %errorlevel% neq 0 goto :VCEnd
+  :VCEnd
+  -- Install configuration: "Debug"
+  -- Installing: C:/Users/Keldor/Documents/Visual Code/Projects/FractalNirvanaVRRust/target/debug/build/openvr_sys-cef7762c39d8c340/out/lib/openvr_api64.lib
+FinalizeBuildStatus:
+  Deleting file "x64\Debug\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+  Touching "x64\Debug\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+Done Building Project "C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\install.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\install.vcxproj" (default target) (1) ->
+"C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\ALL_BUILD.vcxproj" (default target) (3) ->
+"C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj" (default target) (4) ->
+(ClCompile target) -> 
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xlocale(319): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc [C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out\build\src\openvr_api64.vcxproj]
+
+    7 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:07.94
+cargo:root=C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out
+cargo:rustc-link-search=native=C:\Users\Keldor\Documents\Visual Code\Projects\FractalNirvanaVRRust\target\debug\build\openvr_sys-cef7762c39d8c340\out/lib
+cargo:rustc-link-lib=static=openvr_api64
