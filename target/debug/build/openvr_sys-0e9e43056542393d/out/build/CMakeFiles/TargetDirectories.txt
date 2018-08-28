@@ -1,6 +1,0 @@
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/CMakeFiles/INSTALL.dir
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/src/CMakeFiles/INSTALL.dir
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/src/CMakeFiles/openvr_api64.dir
-C:/Users/Keldor/Documents/Visual Code/Projects/fractal_nirvana_vr_rust/target/debug/build/openvr_sys-0e9e43056542393d/out/build/src/CMakeFiles/ALL_BUILD.dir

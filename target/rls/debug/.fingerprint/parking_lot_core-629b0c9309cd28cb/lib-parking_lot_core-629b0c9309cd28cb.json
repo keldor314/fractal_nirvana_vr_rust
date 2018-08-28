@@ -1,1 +1,0 @@
-{"rustc":8053191651074079641,"features":"[]","target":14643244584451238361,"profile":14245719688690734572,"path":12233563658414012821,"deps":[["rand v0.4.3","rand",17028666617281820333],["smallvec v0.6.5","smallvec",17460154818614547664],["winapi v0.3.5","winapi",287040604535272420]],"local":[{"Precalculated":"0.2.14"}],"rustflags":[],"edition":"Edition2015"}
